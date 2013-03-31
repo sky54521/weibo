@@ -18,7 +18,7 @@ def create_app():
 #    from conf import dbconf
 #    kwargs = dict([(s, getattr(dbconf, s)) for s in dir(dbconf) if s.startswith('DB_')])
 #    dbargs = kwargs.pop('DB_ARGS', {})
-    db.init(db_type = 'mysql', db_schema = 'weibo', db_host = 'localhost', db_port = 3306, db_user = 'www-data', db_password = 'www-data')
+    db.init(db_type = 'mysql', db_schema = 'memberTest', db_host = '10.10.82.68', db_port = 3306, db_user = 'yugt', db_password = 'yugt')
     return web.WSGIApplication(('urls',), document_root=os.path.dirname(os.path.abspath(__file__)), template_engine='jinja2', DEBUG=True)
 
 if __name__=='__main__':
