@@ -5,4 +5,12 @@
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/weibo</path>
 </pydev_pathproperty>
+<pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
+<path>D:\Program Files (x86)\python2.7.3\Lib\site-packages\mako-0.7.3-py2.7.egg</path>
+<path>D:\Program Files (x86)\python2.7.3\Lib\site-packages\cheetah-2.4.4-py2.7.egg</path>
+<path>D:\Program Files (x86)\python2.7.3\Lib\site-packages\transwarp-1.0.1-py2.7.egg</path>
+<path>D:\Program Files (x86)\python2.7.3\Lib\site-packages\requests-1.2.0-py2.7.egg</path>
+<path>D:\Program Files (x86)\python2.7.3\Lib\site-packages\jinja2-2.6-py2.7.egg</path>
+<path>D:\Program Files (x86)\python2.7.3\Lib\site-packages\fabric-1.6.0-py2.7.egg</path>
+</pydev_pathproperty>
 </pydev_project>
